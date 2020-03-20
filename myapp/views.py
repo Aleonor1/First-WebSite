@@ -5,3 +5,6 @@ from django.shortcuts import render
 
 def homeView(request):
     return render(request,  'base.html')
+
+def newSearch(request):
+    return render(request, 'myapp/newSearch.html')
