@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7339e45b-b37e-4ce1-9d50-ac3c274ca56d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/myapp/newSearch.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/myapp/newSearch.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myapp/newSearch.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584615459489</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1584723715007</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584723715007</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -71,13 +76,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="search bar, button and functionality added" />
+    <option name="LAST_COMMIT_MESSAGE" value="search bar, button and functionality added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1043" y="178" key="CommitChangelistDialog2" timestamp="1584615459328">
-      <screen x="0" y="23" width="1920" height="1099" />
+    <state x="1043" y="179" key="CommitChangelistDialog2" timestamp="1584725591975">
+      <screen x="0" y="23" width="1920" height="1105" />
     </state>
     <state x="1043" y="178" key="CommitChangelistDialog2/0.23.1920.1099@0.23.1920.1099" timestamp="1584615459328" />
+    <state x="1043" y="179" key="CommitChangelistDialog2/0.23.1920.1105@0.23.1920.1105" timestamp="1584725591975" />
     <state x="1222" y="498" key="Github.CreateGistDialog" timestamp="1584615125509">
       <screen x="0" y="23" width="1920" height="1099" />
     </state>
@@ -86,14 +93,19 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="461" y="239" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1584552278181" />
+    <state x="910" y="315" key="Vcs.Push.Dialog.v2" timestamp="1584723733505">
+      <screen x="0" y="23" width="1920" height="1105" />
+    </state>
+    <state x="910" y="315" key="Vcs.Push.Dialog.v2/0.23.1920.1105@0.23.1920.1105" timestamp="1584723733505" />
     <state x="649" y="299" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1584552153844">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="649" y="299" key="com.intellij.javaee.MapExternalResourceDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1584552153844" />
-    <state x="1013" y="272" width="670" height="739" key="search.everywhere.popup" timestamp="1584637749706">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state x="1013" y="273" width="670" height="681" key="search.everywhere.popup" timestamp="1584724758698">
+      <screen x="0" y="23" width="1920" height="1105" />
     </state>
     <state x="1013" y="272" width="670" height="739" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1584637749706" />
     <state x="1013" y="272" width="670" height="676" key="search.everywhere.popup/0.23.1920.1099@0.23.1920.1099" timestamp="1584619388719" />
+    <state x="1013" y="273" width="670" height="681" key="search.everywhere.popup/0.23.1920.1105@0.23.1920.1105" timestamp="1584724758698" />
   </component>
 </project>

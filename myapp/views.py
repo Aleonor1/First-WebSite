@@ -7,4 +7,8 @@ def homeView(request):
     return render(request,  'base.html')
 
 def newSearch(request):
-    return render(request, 'myapp/newSearch.html')
+    search = request.POST.get('search')
+    stuffForFronted={
+        'search':search
+    }
+    return render(request, 'myapp/newSearch.html',stuffForFronted)
