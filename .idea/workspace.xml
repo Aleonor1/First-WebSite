@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7339e45b-b37e-4ce1-9d50-ac3c274ca56d" name="Default Changelist" comment="">
+    <list default="true" id="7339e45b-b37e-4ce1-9d50-ac3c274ca56d" name="Default Changelist" comment="search bar, button and functionality added">
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/myapp/newSearch.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myapp/newSearch.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,18 +24,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZJHQfS4CtVvzd0WBXseSL0ocmU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -68,44 +71,62 @@
       <option name="project" value="LOCAL" />
       <updated>1584723715007</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="search bar, button and functionality added">
+      <created>1584725667327</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584725667327</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="search bar, button and functionality added" />
     <option name="LAST_COMMIT_MESSAGE" value="search bar, button and functionality added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1043" y="179" key="CommitChangelistDialog2" timestamp="1584725591975">
+    <state x="788" y="322" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1584728778551">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="788" y="322" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1584728778551" />
+    <state x="1043" y="179" key="CommitChangelistDialog2" timestamp="1584728608461">
       <screen x="0" y="23" width="1920" height="1105" />
     </state>
     <state x="1043" y="178" key="CommitChangelistDialog2/0.23.1920.1099@0.23.1920.1099" timestamp="1584615459328" />
-    <state x="1043" y="179" key="CommitChangelistDialog2/0.23.1920.1105@0.23.1920.1105" timestamp="1584725591975" />
+    <state x="1043" y="179" key="CommitChangelistDialog2/0.23.1920.1105@0.23.1920.1105" timestamp="1584728608461" />
     <state x="1222" y="498" key="Github.CreateGistDialog" timestamp="1584615125509">
       <screen x="0" y="23" width="1920" height="1099" />
     </state>
     <state x="1222" y="498" key="Github.CreateGistDialog/0.23.1920.1099@0.23.1920.1099" timestamp="1584615125509" />
-    <state x="461" y="239" key="SettingsEditor" timestamp="1584552278181">
+    <state x="461" y="239" key="SettingsEditor" timestamp="1584728779671">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="461" y="239" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1584552278181" />
-    <state x="910" y="315" key="Vcs.Push.Dialog.v2" timestamp="1584723733505">
-      <screen x="0" y="23" width="1920" height="1105" />
+    <state x="461" y="239" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1584728779671" />
+    <state x="910" y="317" key="Vcs.Push.Dialog.v2" timestamp="1584728646607">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="910" y="315" key="Vcs.Push.Dialog.v2/0.23.1920.1105@0.23.1920.1105" timestamp="1584723733505" />
+    <state x="910" y="317" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1584728646607" />
+    <state x="910" y="315" key="Vcs.Push.Dialog.v2/0.23.1920.1105@0.23.1920.1105" timestamp="1584725684175" />
     <state x="649" y="299" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1584552153844">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="649" y="299" key="com.intellij.javaee.MapExternalResourceDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1584552153844" />
-    <state x="1013" y="273" width="670" height="681" key="search.everywhere.popup" timestamp="1584724758698">
-      <screen x="0" y="23" width="1920" height="1105" />
+    <state x="743" y="524" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584728626271">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="1013" y="272" width="670" height="739" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1584637749706" />
+    <state x="743" y="524" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1200@0.0.1920.1200" timestamp="1584728626271" />
+    <state x="1013" y="272" width="670" height="739" key="search.everywhere.popup" timestamp="1584728688585">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="1013" y="272" width="670" height="739" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1584728688585" />
     <state x="1013" y="272" width="670" height="676" key="search.everywhere.popup/0.23.1920.1099@0.23.1920.1099" timestamp="1584619388719" />
-    <state x="1013" y="273" width="670" height="681" key="search.everywhere.popup/0.23.1920.1105@0.23.1920.1105" timestamp="1584724758698" />
+    <state x="1013" y="273" width="670" height="681" key="search.everywhere.popup/0.23.1920.1105@0.23.1920.1105" timestamp="1584726010953" />
+    <state x="1013" y="273" width="670" height="683" key="search.everywhere.popup/0.23.1920.1107@0.23.1920.1107" timestamp="1584726843127" />
   </component>
 </project>
