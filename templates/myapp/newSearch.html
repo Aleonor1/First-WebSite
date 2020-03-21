@@ -1,6 +1,12 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h2 style="text-align: center">{{search}}</h2>
+            {% csrf_token %}
+
+{% for post in finalData %}
+    <p>{{post.0}}</p>
+    <p>{{post.1}}</p>
+    <p>{{post.2}}</p>
+{% endfor %}
 
 {% endblock content%}

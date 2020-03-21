@@ -16,10 +16,21 @@ def newSearch(request):
     final_url = BASE_CRAIGLIST_URL.format(quote_plus(search))
     response = requests.get(final_url)
     data = response.text
+
     soup = BeautifulSoup(data, features='html.parser')
-    soup_title = soup.find_all('a',{'class': 'result-title'})
-    print(soup)
+
+    postListings = soup.find_all('li', {'class': 'result-row'})
+
+    finalData = []
+
+    for post in postListings:
+        title = post.find(class_='result-title').text
+        url = post.find('a').get('href')
+        price = post.find(class_='result-price').text if post.find(class_='result-price') else 'N/A'
+        finalData.append((title,url,price))
+
     stuffForFronted={
-        'search':search
+        'search':search,
+        'finalData':finalData,
     }
     return render(request, 'myapp/newSearch.html',stuffForFronted)
