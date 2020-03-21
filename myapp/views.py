@@ -6,6 +6,8 @@ from . import models
 # Create your views here.
 
 BASE_CRAIGLIST_URL ='https://losangeles.craigslist.org/search/sss?query={}'
+BASE_IMAGE_URL = 'https://images.craigslist.org/{}_300x300.jpg'
+
 
 def homeView(request):
     return render(request,  'base.html')
@@ -27,7 +29,16 @@ def newSearch(request):
         title = post.find(class_='result-title').text
         url = post.find('a').get('href')
         price = post.find(class_='result-price').text if post.find(class_='result-price') else 'N/A'
-        finalData.append((title,url,price))
+
+    #image stuff
+        if post.find(class_='result-image').get('data-ids'):
+            post_image_id = post.find(class_='result-image').get('data-ids').split(',')[0].split(':')[1]
+            post_image_url = BASE_IMAGE_URL.format(post_image_id)
+            print(post_image_url)
+            finalData.append((title, url, price,post_image_url))
+        else:
+            post_image_url = 'https://craigslist.org/images/peace.jpg'
+            finalData.append((title, url, price, post_image_url))
 
     stuffForFronted={
         'search':search,

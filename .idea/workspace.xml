@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7339e45b-b37e-4ce1-9d50-ac3c274ca56d" name="Default Changelist" comment="new search function">
-      <change afterPath="$PROJECT_DIR$/myapp/migrations/0002_auto_20200321_0939.py" afterDir="false" />
+    <list default="true" id="7339e45b-b37e-4ce1-9d50-ac3c274ca56d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/myapp/newSearch.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/myapp/newSearch.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -86,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584728785245</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="search working on craiglist">
+      <created>1584785269878</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584785269878</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -96,31 +103,32 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="search bar, button and functionality added" />
-    <option name="LAST_COMMIT_MESSAGE" value="search bar, button and functionality added" />
+    <MESSAGE value="search working on craiglist" />
+    <option name="LAST_COMMIT_MESSAGE" value="search working on craiglist" />
   </component>
   <component name="WindowStateProjectService">
     <state x="788" y="322" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1584728848284">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="788" y="322" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1584728848284" />
-    <state x="1043" y="169" key="CommitChangelistDialog2" timestamp="1584728869394">
+    <state x="1043" y="169" key="CommitChangelistDialog2" timestamp="1584785269740">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="1043" y="169" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1584728869394" />
+    <state x="1043" y="169" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1584785269740" />
     <state x="1043" y="178" key="CommitChangelistDialog2/0.23.1920.1099@0.23.1920.1099" timestamp="1584615459328" />
     <state x="1043" y="179" key="CommitChangelistDialog2/0.23.1920.1105@0.23.1920.1105" timestamp="1584728608461" />
     <state x="1222" y="498" key="Github.CreateGistDialog" timestamp="1584615125509">
       <screen x="0" y="23" width="1920" height="1099" />
     </state>
     <state x="1222" y="498" key="Github.CreateGistDialog/0.23.1920.1099@0.23.1920.1099" timestamp="1584615125509" />
-    <state x="461" y="239" key="SettingsEditor" timestamp="1584728852776">
+    <state x="461" y="239" key="SettingsEditor" timestamp="1584787375194">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="461" y="239" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1584728852776" />
-    <state x="910" y="317" key="Vcs.Push.Dialog.v2" timestamp="1584728646607">
+    <state x="461" y="239" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1584787375194" />
+    <state x="910" y="317" key="Vcs.Push.Dialog.v2" timestamp="1584785271813">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="910" y="317" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1584728646607" />
+    <state x="910" y="317" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1584785271813" />
     <state x="910" y="315" key="Vcs.Push.Dialog.v2/0.23.1920.1105@0.23.1920.1105" timestamp="1584725684175" />
     <state x="649" y="299" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1584552153844">
       <screen x="0" y="0" width="1920" height="1200" />
@@ -134,23 +142,12 @@
       <screen x="0" y="23" width="1920" height="1107" />
     </state>
     <state x="1317" y="36" width="672" height="677" key="dock-window-1/0.23.1920.1107@0.23.1920.1107" timestamp="1584784240378" />
-    <state x="1013" y="273" width="670" height="683" key="search.everywhere.popup" timestamp="1584784205789">
-      <screen x="0" y="23" width="1920" height="1107" />
+    <state x="1013" y="272" width="670" height="739" key="search.everywhere.popup" timestamp="1584787000018">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="1013" y="272" width="670" height="739" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1584784067570" />
+    <state x="1013" y="272" width="670" height="739" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1584787000018" />
     <state x="1013" y="272" width="670" height="676" key="search.everywhere.popup/0.23.1920.1099@0.23.1920.1099" timestamp="1584619388719" />
     <state x="1013" y="273" width="670" height="681" key="search.everywhere.popup/0.23.1920.1105@0.23.1920.1105" timestamp="1584726010953" />
     <state x="1013" y="273" width="670" height="683" key="search.everywhere.popup/0.23.1920.1107@0.23.1920.1107" timestamp="1584784205789" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/myapp/views.py</url>
-          <line>28</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
